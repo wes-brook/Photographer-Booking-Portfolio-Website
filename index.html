@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="grid">
+          <a href="/" class="logo">
+            <span class="name">Photographer Name | Logo</span>
+          </a>
+          <nav>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="https://instagram.com/yourusername" target="_blank" class="nav-link social-link">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#book" class="nav-link">Book</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="magazine-issue">ISSUE 01 // 2025</div>
+        <div class="hero-content">
+          <div class="magazine-category">FEATURED CREATOR</div>
+          <h1 class="hero-title">Visual<br />Stories</h1>
+          <p class="hero-description">Creating visual narratives that transcend conventional photography. Specializing in powerlifting and bodybuilding photography that captures the essence of strength and form.</p>
+          <div class="magazine-byline">BY PHOTOGRAPHER NAME</div>
+        </div>
+        <img src="./assets/hero.jpg" alt="Hero Image" class="hero-image" />
+      </section>
+
+      <!-- Project Grid -->
+      <section class="project-grid container" id="work">
+        <div class="project-item hover-zoom">
+          <img src="https://cbum-net.b-cdn.net/wp-content/uploads/2022/04/poster504x498f8f8f8-pad600x600f8f8f8-25.jpg" alt="Fashion Photography" class="project-image" />
+          <div class="project-overlay">
+            <h3 class="project-title">Fashion</h3>
+          </div>
+        </div>
+        <div class="project-item hover-zoom">
+          <img src="https://preview.redd.it/5t075m4yzszb1.png?width=640&crop=smart&auto=webp&s=702f82144c6ee8604f10c318a115116f70789327" class="project-image" />
+          <div class="project-overlay">
+            <h3 class="project-title">Portrait</h3>
+          </div>
+        </div>
+        <div class="project-item hover-zoom">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ramon-rocha-queiroz.jpg/1200px-Ramon-rocha-queiroz.jpg" alt="Editorial Photography" class="project-image" />
+          <div class="project-overlay">
+            <h3 class="project-title">Editorial</h3>
+          </div>
+        </div>
+        <div class="project-item hover-zoom">
+          <img src="https://image-cdn.essentiallysports.com/wp-content/uploads/Wesley-Vissers-1.jpg?class=watermark" alt="Beauty Photography" class="project-image" />
+          <div class="project-overlay">
+            <h3 class="project-title">Beauty</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-content">
+            <h2>About</h2>
+            <p>Creating visual narratives that transcend conventional photography. Specializing in fashion, portrait, and editorial photography that captures the essence of both commercial and artistic vision.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul class="footer-links">
+              <li><a href="mailto:hello@yourname.com">hello@yourname.com</a></li>
+              <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Social</h3>
+            <ul class="footer-links">
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">LinkedIn</a></li>
+              <li><a href="#">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
