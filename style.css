@@ -210,7 +210,7 @@ nav {
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
-  padding-top: calc(var(--spacing-unit) * 13);
+  padding-top: calc(var(--spacing-unit) * 9);
 }
 
 .hero-image {

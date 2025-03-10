@@ -16,14 +16,15 @@ const heroContent = document.querySelector(".hero-content");
 // Parallax scroll function
 function handleScroll(scrollPos) {
   // Parallax for hero image (very subtle movement)
-  const imageSpeed = 0.05;
-  const imageYPos = -scrollPos * imageSpeed;
+  const imageSpeed = 0.1;
+  const imageYPos = scrollPos * imageSpeed;
   heroImage.style.transform = `translate3d(0, ${imageYPos}px, 0) scale(1.1)`;
 
   // Parallax for hero text (slightly more movement)
-  const textSpeed = 0.08;
+  const textSpeed = 0.15;
   const textYPos = -scrollPos * textSpeed;
-  heroContent.style.transform = `translate3d(0, ${textYPos}px, 0)`;
+  const textRotation = 0;
+  heroContent.style.transform = `translate3d(0, ${textYPos}px, 0) rotate(${textRotation}deg)`;
 }
 
 // Lenis scroll handler
